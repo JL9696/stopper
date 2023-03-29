@@ -1,6 +1,11 @@
+import Stopper from "./components/Stopper/Stopper";
+import Container from './components/Container/Container';
+
 const App = () => {
   return (
-    <h1>Hello world</h1>
+    <Container>
+      <Stopper />
+    </Container>
   );
 };
 
